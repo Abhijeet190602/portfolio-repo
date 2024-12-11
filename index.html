@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>My-Portfolio</title>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/images/arrow-up.svg"></button>
+    <!-- Background & animion & navbar & title -->
+    <div class="container-fluid">
+        <!-- Background animtion-->
+        <div class="background">
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+        </div>
+        <!-- header -->
+        <header>
+            <!-- navbar -->
+            <nav class="navigation font-2">
+                <div class="left">
+                    <a href="/">Abhijeet</a>
+
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- logo -->
+            <!-- <div class="logo"><span>N</span></div> -->
+            <!-- title & content -->
+            <section class="home">
+                <div class="leftsection">
+                    <h1>Hi, I am </h1>
+                    <i style="text-shadow: 3px 3px rgb(29, 158, 209, 0.5);">
+                        <h1 class="font-2" style="color: rgb(12, 75, 192);">Abhijeet</h1>
+
+                        <h1 class="font-2" style="color: rgb(12, 75, 192);">Pratap Singh</h1>
+                    </i>
+                    <h2>Frontend Developer</h2>
+                    <!-- <span id="element"></span> -->
+                    <br>
+                    <button type="button" class="font-2">
+                        <a href="https://abhijeet190602.github.io/Resume/">
+                            <img src="/images/resume2.png"> Resume</a></button>
+
+                </div>
+                <!-- <div class="rightsection">
+                    <img src="/images/home img.png" alt="profile">
+                    
+                </div> -->
+
+    </div>
+    </section>
+    </header>
+    <hr>
+    <div class="aboutme" id="about">
+        <hr style="margin: 4px 0;width: 90%;"> <!--About Me-->
+        <h1 style="text-align: center;margin: 40px 0;font-size: 45px;">About Me</h1>
+        <hr style="margin: 4px 0;width: 90%;">
+
+        <div class="container">
+            <div class="about-section">
+                <div class="about-content">
+
+                    <p>Hi there! I’m Abhijeet Pratap Singh, a frontend developer. With a strong eye for aesthetics and a
+                        knack for problem-solving, I blend creativity and functionality to create seamless, engaging
+                        digital experiences. I’m driven by the belief that good design isn’t just beautiful but
+                        intuitive and accessible for everyone.</p>
+                    <p>My journey into design and development started with a fascination for how people interact with
+                        technology.
+                        My goal is to bridge the gap between users' needs and impactful digital solutions.</p>
+                    <br>
+                    <div class="contact-info">
+                        <span><i class="fa fa-phone font-3" aria-hidden="true"> +91-9149607909</i></span>
+                        <span><i class="fa fa-envelope font-3" aria-hidden="true"> abhijeet190602@gmail.com</i></span>
+                    </div>
+                </div>
+                <div class="about-photo">
+                    <img src="/images/Profile__image.jpg" alt="Abhijeet Pratap Singh">
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills swiper" id="skills"> <!--Skills-->
+        <hr style="margin: 4px 0;width: 90%;">
+        <h1 style="text-align: center;margin: 40px 0;"> Skills</h1>
+        <hr style="margin: 4px 0;width: 90%;">
+
+        <div class="skills-container ">
+            <ul class="skills-display swiper-wrapper ">
+                <!-- Skill Cards -->
+                <li class="card swiper-slide">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="num">
+                                <h2>90<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">HTML</h2>
+                    </div>
+                </li>
+                <li class="card swiper-slide">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="num">
+                                <h2>75<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">CSS</h2>
+                    </div>
+                </li>
+                <li class="card swiper-slide">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="num">
+                                <h2>50<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">JavaScript</h2>
+                    </div>
+                </li>
+                <li class="card swiper-slide">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="num">
+                                <h2>80<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">Python</h2>
+                    </div>
+                </li>
+                <li class="card swiper-slide">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="num">
+                                <h2>70<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">SQL</h2>
+                    </div>
+                </li>
+                <li class="card swiper-slide">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="num">
+                                <h2>65<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">Django</h2>
+                    </div>
+                </li>
+                <li class="card swiper-slide">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="num">
+                                <h2>90<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">MS-Office</h2>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+
+            <!-- /.skills-container -->
+
+        </div>
+
+    </div>
+    <div class="projects" id="project"> <!--Projects -->
+        <hr style="margin: 4px 0;width: 90%;">
+        <h1 style="text-align: center;margin: 40px 0;font-size: 45px;">Projects</h1>
+        <hr style="margin: 4px 0;width: 90%;">
+    
+        <div class="projects-container">
+            <div class="project-card">
+                <!-- <img src="/images/project1.jpg" alt="Project 1"> -->
+                <h2>College Management System</h2>
+                <p>A web application using Django for managing student data, attendance, and grades.</p>
+                <a href="https://github.com/Abhijeet190602/College_Management_System-Django/tree/master" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <!-- <img src="/images/project2.jpg" alt="Project 2"> -->
+                <h2>Blog-Website-Template</h2>
+                <p> Responsive blog website template using HTML, CSS, and JavaScript.</p>
+                <a href="https://abhijeet190602.github.io/blog-website-template/" target="_blank">View Project</a>
+            </div>
+            
+            <!-- Add more project cards as needed -->
+        </div>
+    </div>
+    <div class="contact" id="contact"> <!--Contact Me-->
+        <hr style="margin: 4px 0;width: 90%;">
+        <h1 style="text-align: center;margin: 40px 0;font-size: 45px;">Contact Me</h1>
+        <hr style="margin: 4px 0;width: 90%;">
+
+        <div class="contact-container">
+            <!-- <p>I will get back to you asap!</p> -->
+            <form id="contact-form" action="send_email.php" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </div>
+
+
+    </div>
+    <div class="footer"> <!-- Footer-->
+        <div class="footer-content">
+            <p>
+                &copy; copyright Abhijeet
+            </p>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <!-- <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Frontend Developer</i>', '<i>&amp; a passionate Web Designer.</i>'],
+            typeSpeed: 50,
+        });
+    </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
